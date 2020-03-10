@@ -1,6 +1,49 @@
 [ {
+  "buildOrder" : 7,
+  "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/7/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 4,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 6,
+  "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/6/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 4,
+    "retry" : 8
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/4/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 4,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 0,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/2/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 0,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/1/allure",
+  "reportName" : "AllureReport",
   "data" : {
     "run" : 6,
-    "retry" : 24
+    "retry" : 0
   }
 } ]

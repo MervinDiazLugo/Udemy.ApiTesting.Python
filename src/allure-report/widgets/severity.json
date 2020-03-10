@@ -1,61 +1,41 @@
 [ {
-  "uid" : "39e03e30a1b1b711",
-  "name" : "built body parameters data",
-  "time" : {
-    "start" : 1583563451430,
-    "stop" : 1583563452858,
-    "duration" : 1428
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4a1c20b38fb0d36d",
+  "uid" : "831dfbacc19679d1",
   "name" : "Get json as body parameters",
   "time" : {
-    "start" : 1583563452862,
-    "stop" : 1583563455399,
-    "duration" : 2537
+    "start" : 1583810366884,
+    "stop" : 1583810367685,
+    "duration" : 801
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b944147558d52daf",
-  "name" : "Do a SQL Query",
-  "time" : {
-    "start" : 1583563455401,
-    "stop" : 1583563455470,
-    "duration" : 69
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5766b4aa591e84d5",
+  "uid" : "3bfcc1a37698581d",
   "name" : "GET pet data",
   "time" : {
-    "start" : 1583563448460,
-    "stop" : 1583563450005,
-    "duration" : 1545
+    "start" : 1583810364337,
+    "stop" : 1583810365329,
+    "duration" : 992
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "2b843f28ea9e2b0b",
+  "uid" : "ec1279bb672a2310",
   "name" : "Retrieve pet data",
   "time" : {
-    "start" : 1583563450006,
-    "stop" : 1583563451428,
-    "duration" : 1422
+    "start" : 1583810365330,
+    "stop" : 1583810366130,
+    "duration" : 800
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "dfa2e2a9aa73aaef",
-  "name" : "Get Access token",
+  "uid" : "c316fe2bf6f448eb",
+  "name" : "built body parameters data",
   "time" : {
-    "start" : 1583563448445,
-    "stop" : 1583563448451,
-    "duration" : 6
+    "start" : 1583810366136,
+    "stop" : 1583810366883,
+    "duration" : 747
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 } ]

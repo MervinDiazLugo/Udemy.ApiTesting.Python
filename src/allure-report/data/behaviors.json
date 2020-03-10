@@ -2,82 +2,58 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "Test Twitter",
-    "children" : [ {
-      "name" : "Get Access token",
-      "uid" : "dfa2e2a9aa73aaef",
-      "parentUid" : "56a1ec13e6970197e2a07d348a160813",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583563448445,
-        "stop" : 1583563448451,
-        "duration" : 6
-      },
-      "flaky" : true,
-      "parameters" : [ ]
-    } ],
-    "uid" : "56a1ec13e6970197e2a07d348a160813"
-  }, {
     "name" : "Test WebApi",
     "children" : [ {
       "name" : "GET pet data",
-      "uid" : "5766b4aa591e84d5",
+      "uid" : "3bfcc1a37698581d",
       "parentUid" : "2ce0f0593b230a62018be376a8bbc096",
       "status" : "failed",
       "time" : {
-        "start" : 1583563448460,
-        "stop" : 1583563450005,
-        "duration" : 1545
+        "start" : 1583810364337,
+        "stop" : 1583810365329,
+        "duration" : 992
       },
-      "flaky" : true,
+      "flaky" : false,
+      "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Retrieve pet data",
-      "uid" : "2b843f28ea9e2b0b",
+      "uid" : "ec1279bb672a2310",
       "parentUid" : "2ce0f0593b230a62018be376a8bbc096",
       "status" : "passed",
       "time" : {
-        "start" : 1583563450006,
-        "stop" : 1583563451428,
-        "duration" : 1422
+        "start" : 1583810365330,
+        "stop" : 1583810366130,
+        "duration" : 800
       },
-      "flaky" : true,
+      "flaky" : false,
+      "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "built body parameters data",
-      "uid" : "39e03e30a1b1b711",
+      "uid" : "c316fe2bf6f448eb",
       "parentUid" : "2ce0f0593b230a62018be376a8bbc096",
       "status" : "passed",
       "time" : {
-        "start" : 1583563451430,
-        "stop" : 1583563452858,
-        "duration" : 1428
+        "start" : 1583810366136,
+        "stop" : 1583810366883,
+        "duration" : 747
       },
-      "flaky" : true,
+      "flaky" : false,
+      "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Get json as body parameters",
-      "uid" : "4a1c20b38fb0d36d",
+      "uid" : "831dfbacc19679d1",
       "parentUid" : "2ce0f0593b230a62018be376a8bbc096",
       "status" : "passed",
       "time" : {
-        "start" : 1583563452862,
-        "stop" : 1583563455399,
-        "duration" : 2537
-      },
-      "flaky" : true,
-      "parameters" : [ ]
-    }, {
-      "name" : "Do a SQL Query",
-      "uid" : "b944147558d52daf",
-      "parentUid" : "2ce0f0593b230a62018be376a8bbc096",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583563455401,
-        "stop" : 1583563455470,
-        "duration" : 69
+        "start" : 1583810366884,
+        "stop" : 1583810367685,
+        "duration" : 801
       },
       "flaky" : false,
+      "newFailed" : false,
       "parameters" : [ ]
     } ],
     "uid" : "2ce0f0593b230a62018be376a8bbc096"

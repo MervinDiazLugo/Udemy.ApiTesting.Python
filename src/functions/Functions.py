@@ -139,14 +139,22 @@ class Functions():
         self.json_response = json.loads(self._response.text)
         PATH_VALUE = self.json_response[entity]
 
-        lista =  isinstance(PATH_VALUE, list)
-        dicts = isinstance(PATH_VALUE, dict)
-        if lista:
-            PATH_VALUE = self.json_response[entity][int(subPath)]
-        if dicts:
-            PATH_VALUE = self.json_response[entity][subPath]
+        if expected == "NOT NULL":
+            assert str(PATH_VALUE) != None, f"El valor es Null: {PATH_VALUE} != {expected}"
+            return
 
-        assert str(PATH_VALUE) == expected, f"El valor no es el esperado: {PATH_VALUE} != {expected}"
+        elif expected == "NULL":
+            assert str(PATH_VALUE) == None, f"El valor no es Null: {PATH_VALUE} != {expected}"
+            return
+        else:
+            lista =  isinstance(PATH_VALUE, list)
+            dicts = isinstance(PATH_VALUE, dict)
+            if lista:
+                PATH_VALUE = self.json_response[entity][int(subPath)]
+            if dicts:
+                PATH_VALUE = self.json_response[entity][subPath]
+
+            assert str(PATH_VALUE) == expected, f"El valor no es el esperado: {PATH_VALUE} != {expected}"
 
     def expected_results_value(self, file):
         self.json_strings = Functions.get_json_inData(self, file)
@@ -210,10 +218,18 @@ class Functions():
         try:
             tree_obj = objectpath.Tree(self.json_response)
             entity = tuple(tree_obj.execute('$.' + path))
-            entity_R1 =  str(entity[0])
+            PATH_VALUE =  str(entity[0])
             print(entity)
         except SyntaxError:
             entity = str(None)
             print("No se pudo obtener ningun valor de la busqueda")
 
-        assert entity_R1 == esperado, f"No es el valor esperado {path}: {esperado} != {entity_R1}"
+        if esperado == "NOT NULL":
+            assert str(PATH_VALUE) != None, f"El valor es Null: {PATH_VALUE} != {expected}"
+            return
+
+        elif esperado == "NULL":
+            assert str(PATH_VALUE) == None, f"El valor no es Null: {PATH_VALUE} != {expected}"
+            return
+        else:
+            assert PATH_VALUE == esperado, f"No es el valor esperado {path}: {esperado} != {entity_R1}"

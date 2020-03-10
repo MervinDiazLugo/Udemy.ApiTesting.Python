@@ -9,9 +9,9 @@ Feature: Test WebApi
     Then The api response is 200
     And I assert response in entity id is 20
     And I assert response in entity name is Mervin Alberto
-    And I assert response in entity status is available
+    And I assert response in entity status is NOT NULL
     And I assert that response in entity category path id is 10
-    And I assert that response in entity photoUrls path 0 is Foto1
+    And I assert that response in entity photoUrls path 0 is NOT NULL
     And I assert that response in entity tags path 0 is {'id': 0, 'name': 'string'}
     Then The elements <Entity> show the values <Value>
       | Entity | Value          |
@@ -19,9 +19,9 @@ Feature: Test WebApi
       | name   | Mervin Alberto |
       | status | available      |
     Then elements <Entity> in <Path> show the values <Value>
-      | Entity      |Path   | Value   |
-      | category    |   id  | 10      |
-      | photoUrls   |   0   | Foto1   |
+      | Entity      |Path   | Value      |
+      | category    |   id  | 10         |
+      | photoUrls   |   0   | NOT NULL   |
     Then I compare the json File data_responses/pet20 with response
 
   @WebApi

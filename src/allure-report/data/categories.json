@@ -2,43 +2,24 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "KeyError: 'User_Test1'\n",
-      "children" : [ {
-        "name" : "Get Access token",
-        "uid" : "dfa2e2a9aa73aaef",
-        "parentUid" : "a24d20299645d924a05dd456765ac4df",
-        "status" : "broken",
-        "time" : {
-          "start" : 1583563448445,
-          "stop" : 1583563448451,
-          "duration" : 6
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a24d20299645d924a05dd456765ac4df"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: El valor no es el esperado: Lili != Mervin Alberto\n",
+      "name" : "AssertionError: El valor no es el esperado: Foto10 != Foto1\n",
       "children" : [ {
         "name" : "GET pet data",
-        "uid" : "5766b4aa591e84d5",
-        "parentUid" : "25adbe3085001ffb1edb9aae79dd4d8c",
+        "uid" : "3bfcc1a37698581d",
+        "parentUid" : "2b8e6a31951a9c49777b620135fd5135",
         "status" : "failed",
         "time" : {
-          "start" : 1583563448460,
-          "stop" : 1583563450005,
-          "duration" : 1545
+          "start" : 1583810364337,
+          "stop" : 1583810365329,
+          "duration" : 992
         },
-        "flaky" : true,
+        "flaky" : false,
+        "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "25adbe3085001ffb1edb9aae79dd4d8c"
+      "uid" : "2b8e6a31951a9c49777b620135fd5135"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

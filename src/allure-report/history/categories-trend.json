@@ -1,6 +1,40 @@
 [ {
+  "buildOrder" : 7,
+  "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/7/allure",
+  "reportName" : "AllureReport",
   "data" : {
-    "Product defects" : 1,
-    "Test defects" : 1
+    "Product defects" : 1
+  }
+}, {
+  "buildOrder" : 6,
+  "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/6/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 1
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/4/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 1
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/3/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/2/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 3,
+    "Test defects" : 2
   }
 } ]

@@ -1,1 +1,10 @@
-[ ]
+[ {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://localhost:7000/",
+  "buildOrder" : 7,
+  "buildName" : "udemy.python.APItesting.Behave #7",
+  "buildUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/7/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/7/allure"
+} ]

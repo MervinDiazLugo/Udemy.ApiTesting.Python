@@ -1,62 +1,149 @@
 {
   "ad4373491de36ae3b30cfa2f97550eb4" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 1
+      "total" : 4
     },
     "items" : [ {
-      "uid" : "4a1c20b38fb0d36d",
+      "uid" : "831dfbacc19679d1",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/7/allure/#testresult/831dfbacc19679d1",
       "status" : "passed",
       "time" : {
-        "start" : 1583563452862,
-        "stop" : 1583563455399,
-        "duration" : 2537
+        "start" : 1583810366884,
+        "stop" : 1583810367685,
+        "duration" : 801
+      }
+    }, {
+      "uid" : "3ffdf2c887701f6e",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/6/allure/#testresult/3ffdf2c887701f6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583810293745,
+        "stop" : 1583810294508,
+        "duration" : 763
+      }
+    }, {
+      "uid" : "5296850870c38c79",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/4/allure/#testresult/5296850870c38c79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583810055197,
+        "stop" : 1583810055919,
+        "duration" : 722
+      }
+    }, {
+      "uid" : "d3b4397a801a4a26",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/1/allure/#testresult/d3b4397a801a4a26",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: El codigo de respuesta no es el esperado 404 != 200\n",
+      "time" : {
+        "start" : 1583809824755,
+        "stop" : 1583809825097,
+        "duration" : 342
       }
     } ]
   },
   "af3e40733ae4b4c82c35eebe194a7b41" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 1
+      "total" : 4
     },
     "items" : [ {
-      "uid" : "39e03e30a1b1b711",
+      "uid" : "c316fe2bf6f448eb",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/7/allure/#testresult/c316fe2bf6f448eb",
       "status" : "passed",
       "time" : {
-        "start" : 1583563451430,
-        "stop" : 1583563452858,
-        "duration" : 1428
+        "start" : 1583810366136,
+        "stop" : 1583810366883,
+        "duration" : 747
+      }
+    }, {
+      "uid" : "56891e6eed3ee8a2",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/6/allure/#testresult/56891e6eed3ee8a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583810292961,
+        "stop" : 1583810293742,
+        "duration" : 781
+      }
+    }, {
+      "uid" : "cc3121e9e9ede935",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/4/allure/#testresult/cc3121e9e9ede935",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583810054413,
+        "stop" : 1583810055180,
+        "duration" : 767
+      }
+    }, {
+      "uid" : "26095ef7e8a30fb1",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/1/allure/#testresult/26095ef7e8a30fb1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: El codigo de respuesta no es el esperado 404 != 200\n",
+      "time" : {
+        "start" : 1583809824393,
+        "stop" : 1583809824754,
+        "duration" : 361
       }
     } ]
   },
   "633856d690ddcd939d4f770d9d9b11b7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 1
+      "total" : 4
     },
     "items" : [ {
-      "uid" : "2b843f28ea9e2b0b",
+      "uid" : "ec1279bb672a2310",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/7/allure/#testresult/ec1279bb672a2310",
       "status" : "passed",
       "time" : {
-        "start" : 1583563450006,
-        "stop" : 1583563451428,
-        "duration" : 1422
+        "start" : 1583810365330,
+        "stop" : 1583810366130,
+        "duration" : 800
+      }
+    }, {
+      "uid" : "18a76a72c2cae8db",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/6/allure/#testresult/18a76a72c2cae8db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583810292178,
+        "stop" : 1583810292960,
+        "duration" : 782
+      }
+    }, {
+      "uid" : "249254c26f9522a",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/4/allure/#testresult/249254c26f9522a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583810053642,
+        "stop" : 1583810054412,
+        "duration" : 770
+      }
+    }, {
+      "uid" : "cc148fcb3b186b12",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/1/allure/#testresult/cc148fcb3b186b12",
+      "status" : "broken",
+      "statusDetails" : "json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+      "time" : {
+        "start" : 1583809824026,
+        "stop" : 1583809824392,
+        "duration" : 366
       }
     } ]
   },
-  "1c544dbeb337e722c9c2758a69d41b44" : {
+  "bc1aabcc934322ba52ece8545a3a6aad" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -66,33 +153,65 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5766b4aa591e84d5",
+      "uid" : "3016d5feaf5d1a24",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/1/allure/#testresult/3016d5feaf5d1a24",
       "status" : "failed",
-      "statusDetails" : "AssertionError: El valor no es el esperado: Lili != Mervin Alberto\n",
+      "statusDetails" : "AssertionError: No es el valor esperado statuses.created_at: Fri Mar 06 11:00:00 +0000 2020 != Thu Mar 05 14:00:00 +0000 2020\n",
       "time" : {
-        "start" : 1583563448460,
-        "stop" : 1583563450005,
-        "duration" : 1545
+        "start" : 1583809823209,
+        "stop" : 1583809824014,
+        "duration" : 805
       }
     } ]
   },
-  "bc1aabcc934322ba52ece8545a3a6aad" : {
+  "1c544dbeb337e722c9c2758a69d41b44" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 3,
       "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 4
     },
     "items" : [ {
-      "uid" : "dfa2e2a9aa73aaef",
-      "status" : "broken",
-      "statusDetails" : "KeyError: 'User_Test1'\n",
+      "uid" : "3bfcc1a37698581d",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/7/allure/#testresult/3bfcc1a37698581d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: El valor no es el esperado: Foto10 != Foto1\n",
       "time" : {
-        "start" : 1583563448445,
-        "stop" : 1583563448451,
-        "duration" : 6
+        "start" : 1583810364337,
+        "stop" : 1583810365329,
+        "duration" : 992
+      }
+    }, {
+      "uid" : "5603c35e4904431",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/6/allure/#testresult/5603c35e4904431",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: El valor no es el esperado: Foto10 != Foto1\n",
+      "time" : {
+        "start" : 1583810291333,
+        "stop" : 1583810292174,
+        "duration" : 841
+      }
+    }, {
+      "uid" : "9b0cb9897a286240",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/4/allure/#testresult/9b0cb9897a286240",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: El valor no es el esperado: Foto10 != Foto1\n",
+      "time" : {
+        "start" : 1583810052637,
+        "stop" : 1583810053639,
+        "duration" : 1002
+      }
+    }, {
+      "uid" : "67c13bf962aae966",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/1/allure/#testresult/67c13bf962aae966",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'pet'\n",
+      "time" : {
+        "start" : 1583809824017,
+        "stop" : 1583809824024,
+        "duration" : 7
       }
     } ]
   },
@@ -106,12 +225,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b944147558d52daf",
+      "uid" : "c876603e4e944124",
+      "reportUrl" : "http://localhost:7000/job/Udemy%20API%20Testing/1/allure/#testresult/c876603e4e944124",
       "status" : "passed",
       "time" : {
-        "start" : 1583563455401,
-        "stop" : 1583563455470,
-        "duration" : 69
+        "start" : 1583809825098,
+        "stop" : 1583809825248,
+        "duration" : 150
       }
     } ]
   }
