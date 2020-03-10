@@ -11,7 +11,7 @@ class Inicializar():
     data_body = basedir + u"/data/data_body"
     data_responses = basedir + u"/data/data_responses"
 
-    Environment = 'Twitter.test'
+    Environment = 'PetStore.test'
     #'PetStore.test'
     #"Twitter.test"
 

@@ -2,7 +2,7 @@
 Feature: Test Twitter
 
 
-  @WebApi
+  @GetToken
   Scenario: Get Access token
     Given I connect with endpoint 1.1/search/tweets.json?q=from%3AEscenario:User_Test1&result_type=mixed&count=2
     When I login in Twitter App
