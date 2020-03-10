@@ -1,0 +1,118 @@
+{
+  "ad4373491de36ae3b30cfa2f97550eb4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4a1c20b38fb0d36d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583563452862,
+        "stop" : 1583563455399,
+        "duration" : 2537
+      }
+    } ]
+  },
+  "af3e40733ae4b4c82c35eebe194a7b41" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "39e03e30a1b1b711",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583563451430,
+        "stop" : 1583563452858,
+        "duration" : 1428
+      }
+    } ]
+  },
+  "633856d690ddcd939d4f770d9d9b11b7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b843f28ea9e2b0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583563450006,
+        "stop" : 1583563451428,
+        "duration" : 1422
+      }
+    } ]
+  },
+  "1c544dbeb337e722c9c2758a69d41b44" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5766b4aa591e84d5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: El valor no es el esperado: Lili != Mervin Alberto\n",
+      "time" : {
+        "start" : 1583563448460,
+        "stop" : 1583563450005,
+        "duration" : 1545
+      }
+    } ]
+  },
+  "bc1aabcc934322ba52ece8545a3a6aad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dfa2e2a9aa73aaef",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'User_Test1'\n",
+      "time" : {
+        "start" : 1583563448445,
+        "stop" : 1583563448451,
+        "duration" : 6
+      }
+    } ]
+  },
+  "6ec6cc51eb8ec21cb3de96d8bfc8938f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b944147558d52daf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583563455401,
+        "stop" : 1583563455470,
+        "duration" : 69
+      }
+    } ]
+  }
+}

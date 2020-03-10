@@ -1,0 +1,116 @@
+{
+  "uid" : "4d11cff7d7822ac0",
+  "name" : "Retrieve pet data",
+  "historyId" : "633856d690ddcd939d4f770d9d9b11b7",
+  "time" : {
+    "start" : 1583563437975,
+    "stop" : 1583563439796,
+    "duration" : 1821
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I connect with endpoint pet/10",
+      "time" : {
+        "start" : 1583563437984,
+        "stop" : 1583563437988,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I do a Get",
+      "time" : {
+        "start" : 1583563437988,
+        "stop" : 1583563439794,
+        "duration" : 1806
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I print out the results of the response",
+      "time" : {
+        "start" : 1583563439794,
+        "stop" : 1583563439795,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then The api response 404 Dont Exist",
+      "time" : {
+        "start" : 1583563439795,
+        "stop" : 1583563439796,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "Integration"
+  }, {
+    "name" : "tag",
+    "value" : "WebApi"
+  }, {
+    "name" : "feature",
+    "value" : "Test WebApi"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "Integration", "WebApi" ]
+  },
+  "source" : "4d11cff7d7822ac0.json",
+  "parameterValues" : [ ]
+}

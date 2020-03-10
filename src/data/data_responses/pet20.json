@@ -1,0 +1,19 @@
+{
+   "id": 20,
+   "category": {
+      "id": 10,
+      "name": "Billy Butcher"
+   },
+   "name": "Mervin Alberto",
+   "photoUrls": [
+      "Foto1",
+      "Foto2"
+   ],
+   "tags": [
+      {
+         "id": 0,
+         "name": "string"
+      }
+   ],
+   "status": "available"
+}

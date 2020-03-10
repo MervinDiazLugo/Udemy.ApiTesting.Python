@@ -1,0 +1,233 @@
+{
+  "uid" : "f8fab275da3db7ea",
+  "name" : "Get Access token",
+  "historyId" : "bc1aabcc934322ba52ece8545a3a6aad",
+  "time" : {
+    "start" : 1583563435852,
+    "stop" : 1583563435858,
+    "duration" : 6
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'User_Test1'\n",
+  "statusTrace" : "  File \"d:\\programs\\python3\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"d:\\programs\\python3\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\Steps.py\", line 19, in step_impl\n    self._endpoint = Functions.get_full_host(self, host)\n  File \"D:\\udemy.python.ApiRestFramework\\src\\functions\\Functions.py\", line 45, in get_full_host\n    _RegexPartHost = str(Functions.ReplaceWithContextValues(self, _PartHost))\n  File \"D:\\udemy.python.ApiRestFramework\\src\\functions\\Functions.py\", line 34, in ReplaceWithContextValues\n    text = re.sub('(Escenario:)'+ variable, Inicializar.Scenary[variable], text, re.IGNORECASE)\n",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'User_Test1'\n",
+    "statusTrace" : "  File \"d:\\programs\\python3\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"d:\\programs\\python3\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\Steps.py\", line 19, in step_impl\n    self._endpoint = Functions.get_full_host(self, host)\n  File \"D:\\udemy.python.ApiRestFramework\\src\\functions\\Functions.py\", line 45, in get_full_host\n    _RegexPartHost = str(Functions.ReplaceWithContextValues(self, _PartHost))\n  File \"D:\\udemy.python.ApiRestFramework\\src\\functions\\Functions.py\", line 34, in ReplaceWithContextValues\n    text = re.sub('(Escenario:)'+ variable, Inicializar.Scenary[variable], text, re.IGNORECASE)\n",
+    "steps" : [ {
+      "name" : "Given I connect with endpoint 1.1/search/tweets.json?q=from%3AEscenario:User_Test1&result_type=mixed&count=2",
+      "time" : {
+        "start" : 1583563435853,
+        "stop" : 1583563435855,
+        "duration" : 2
+      },
+      "status" : "broken",
+      "statusMessage" : "KeyError: 'User_Test1'\n",
+      "statusTrace" : "  File \"d:\\programs\\python3\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"d:\\programs\\python3\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\Steps.py\", line 19, in step_impl\n    self._endpoint = Functions.get_full_host(self, host)\n  File \"D:\\udemy.python.ApiRestFramework\\src\\functions\\Functions.py\", line 45, in get_full_host\n    _RegexPartHost = str(Functions.ReplaceWithContextValues(self, _PartHost))\n  File \"D:\\udemy.python.ApiRestFramework\\src\\functions\\Functions.py\", line 34, in ReplaceWithContextValues\n    text = re.sub('(Escenario:)'+ variable, Inicializar.Scenary[variable], text, re.IGNORECASE)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "When I login in Twitter App",
+      "time" : {
+        "start" : 1583563435857,
+        "stop" : 1583563435857,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I do a Get",
+      "time" : {
+        "start" : 1583563435857,
+        "stop" : 1583563435857,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I print out the results of the response",
+      "time" : {
+        "start" : 1583563435857,
+        "stop" : 1583563435857,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I compare response in entity statuses.created_at is Fri Mar 06 11:00:00 +0000 2020",
+      "time" : {
+        "start" : 1583563435857,
+        "stop" : 1583563435857,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I compare response in entity statuses.id is 1235882821434183681",
+      "time" : {
+        "start" : 1583563435857,
+        "stop" : 1583563435857,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I compare response in entity statuses.entities.hashtags is []",
+      "time" : {
+        "start" : 1583563435857,
+        "stop" : 1583563435857,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I compare response in entity statuses.entities.media[0].id is 1235629131221647364",
+      "time" : {
+        "start" : 1583563435857,
+        "stop" : 1583563435857,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I compare response in entity statuses.entities.media[0].media_url is http://pbs.twimg.com/media/ESXWJfCXQAQs6xr.jpg",
+      "time" : {
+        "start" : 1583563435857,
+        "stop" : 1583563435857,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I compare response in entity statuses.extended_entities.media[0].id is 1235629131221647364",
+      "time" : {
+        "start" : 1583563435857,
+        "stop" : 1583563435857,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I compare <Entity> show the values <Value>",
+      "time" : {
+        "start" : 1583563435857,
+        "stop" : 1583563435858,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f077f97363fba5d3",
+        "name" : ".table",
+        "source" : "f077f97363fba5d3.csv",
+        "type" : "text/csv",
+        "size" : 155
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 11,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "Twitter"
+  }, {
+    "name" : "tag",
+    "value" : "WebApi"
+  }, {
+    "name" : "feature",
+    "value" : "Test Twitter"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "WebApi", "Twitter" ]
+  },
+  "source" : "f8fab275da3db7ea.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Mar 07 03:44:15 ART 2020","Sat Mar 07 03:44:15 ART 2020","69","","","","","","Do a SQL Query",""
+"broken","Sat Mar 07 03:44:08 ART 2020","Sat Mar 07 03:44:08 ART 2020","6","","","","","","Get Access token",""
+"passed","Sat Mar 07 03:44:11 ART 2020","Sat Mar 07 03:44:12 ART 2020","1428","","","","","","built body parameters data",""
+"passed","Sat Mar 07 03:44:10 ART 2020","Sat Mar 07 03:44:11 ART 2020","1422","","","","","","Retrieve pet data",""
+"passed","Sat Mar 07 03:44:12 ART 2020","Sat Mar 07 03:44:15 ART 2020","2537","","","","","","Get json as body parameters",""
+"failed","Sat Mar 07 03:44:08 ART 2020","Sat Mar 07 03:44:10 ART 2020","1545","","","","","","GET pet data",""
