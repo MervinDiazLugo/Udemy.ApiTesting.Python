@@ -225,11 +225,11 @@ class Functions():
             print("No se pudo obtener ningun valor de la busqueda")
 
         if esperado == "NOT NULL":
-            assert str(PATH_VALUE) != None, f"El valor es Null: {PATH_VALUE} != {expected}"
+            assert str(PATH_VALUE) != None, f"El valor es Null: {PATH_VALUE} != {esperado}"
             return
 
         elif esperado == "NULL":
-            assert str(PATH_VALUE) == None, f"El valor no es Null: {PATH_VALUE} != {expected}"
+            assert str(PATH_VALUE) == None, f"El valor no es Null: {PATH_VALUE} != {esperado}"
             return
         else:
-            assert PATH_VALUE == esperado, f"No es el valor esperado {path}: {esperado} != {entity_R1}"
+            assert PATH_VALUE == esperado, f"No es el valor esperado {path}: {PATH_VALUE} != {esperado}"

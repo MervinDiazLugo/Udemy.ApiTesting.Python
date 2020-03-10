@@ -8,8 +8,8 @@ Feature: Test Twitter
     When I login in Twitter App
     Then I do a Get
     And I print out the results of the response
-    Then I compare response in entity statuses.created_at is Fri Mar 06 11:00:00 +0000 2020
-    Then I compare response in entity statuses.id is 1235882821434183681
+    Then I compare response in entity statuses.created_at is NOT NULL
+    Then I compare response in entity statuses.id is NULL
     Then I compare response in entity statuses.entities.hashtags is []
     Then I compare response in entity statuses.entities.media[0].id is 1235629131221647364
     Then I compare response in entity statuses.entities.media[0].media_url is http://pbs.twimg.com/media/ESXWJfCXQAQs6xr.jpg
