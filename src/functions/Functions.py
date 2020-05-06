@@ -217,11 +217,19 @@ class Functions():
         esperado = str(esperado)
         try:
             tree_obj = objectpath.Tree(self.json_response)
-            entity = tuple(tree_obj.execute('$.' + path))
-            PATH_VALUE =  str(entity[0])
-            print(entity)
+            PATH_VALUE =  tree_obj.execute('$.' + path)
+
+            if "generator object Tree.execute" in str(PATH_VALUE):
+                entity = tuple(tree_obj.execute('$.' + path))
+                PATH_VALUE = entity[0]
+
+            print(PATH_VALUE)
+
+        except TypeError:
+            entity = tuple(str(tree_obj.execute('$.' + path)))
+            PATH_VALUE = ''.join(map(str,entity))
+
         except SyntaxError:
-            entity = str(None)
             print("No se pudo obtener ningun valor de la busqueda")
 
         if esperado == "NOT NULL":
@@ -232,4 +240,4 @@ class Functions():
             assert str(PATH_VALUE) == None, f"El valor no es Null: {PATH_VALUE} != {esperado}"
             return
         else:
-            assert PATH_VALUE == esperado, f"No es el valor esperado {path}: {PATH_VALUE} != {esperado}"
+            assert str(PATH_VALUE) == str(esperado), f"No es el valor esperado {path}: {PATH_VALUE} != {esperado}"
